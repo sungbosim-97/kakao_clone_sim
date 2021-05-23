@@ -1,3 +1,3 @@
 # kaka_clone_2021
 
-Let's start clone kaka!
+Let's start clone kakaotalk!
