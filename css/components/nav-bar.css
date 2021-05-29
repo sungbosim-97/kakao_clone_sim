@@ -1,0 +1,42 @@
+.navigation {
+  background-color: rgba(237, 237, 237, 0.72);
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__notification {
+  background-color: #ff622a;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__dot {
+  background-color: #ff622a;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+}
