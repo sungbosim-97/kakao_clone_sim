@@ -4,7 +4,10 @@
 /* Components */
 @import "components/variables.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+
 /* Screens */
+@import "screens/friends.css";
 @import "screens/login.css";
 
 body {
