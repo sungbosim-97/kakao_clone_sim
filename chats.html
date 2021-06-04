@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends_Screen</title>
+    <title>Chats</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,62 +24,32 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__coloumn">
           <img
-            src="https://avatars.githubusercontent.com/u/84437729?s=60&v=4"
-            class="user-component__avatar user-component__avatar-xl"
+            src="https://10mag.com/wp-content/uploads/2021/02/kakaotalk.png"
+            class="user-component__avatar user-component__avatar"
           />
           <div class="user-component_text">
-            <h3 class="user-component__fullname">SungboSIM</h3>
-            <!-- <h4 class="user-component__chatpreview">Lol whatever</h4> -->
+            <h3 class="user-component__fullname">KakaoTalk</h3>
+            <h4 class="user-component__chatpreview">
+              Please check My Kakao Acount info
+            </h4>
           </div>
         </div>
-        <div class="user-component__coloumn"></div>
-      </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up"></i>
-        </div>
-
-        <div class="user-component">
-          <div class="user-component__coloumn">
-            <img
-              src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4"
-              class="user-component__avatar user-component__avatar-sm"
-            />
-            <div class="user-component_text">
-              <h3
-                class="
-                  user-component__fullname user-component__fullname_notbold
-                "
-              >
-                Channel
-              </h3>
-              <!-- <h4 class="user-component__chatpreview">Lol whatever</h4> -->
-            </div>
-          </div>
-
-          <div class="user-component__coloumn">
-            <span>2</span>
-            <i class="fas fa-chevron-right"></i>
-          </div>
+        <div class="user-component__coloumn_chats">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
         </div>
       </div>
     </main>
@@ -88,13 +58,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -103,7 +73,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="more.html">
             <div class="nav__dot"></div>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>
