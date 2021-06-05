@@ -1,0 +1,8 @@
+.user-component__chatpreview {
+  display: flex;
+}
+
+.fa-exclamation-circle {
+  color: rgb(252, 98, 42);
+  padding-left: 5px;
+}
