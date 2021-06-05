@@ -18,9 +18,11 @@
 .more-suggestion-title {
   padding-bottom: 30px;
 }
+
 .more-suggestion-icons {
   display: flex;
   font-size: 10px;
+  justify-content: space-between;
 }
 
 .more-suggestion-icons-img {
